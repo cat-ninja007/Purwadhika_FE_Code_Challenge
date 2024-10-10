@@ -7,7 +7,7 @@ import ReactLogo from "../../public/images/react-logo.png";
 const Technologies: FC = () => {
   return (
     <>
-      <div className="technologies-container py-[90px] border border-2 border-red-500">
+      <div className="technologies-container py-[90px]">
         <div className="technologies-name flex justify-center">
           <h4 className="pb-4">Specialized</h4>
         </div>

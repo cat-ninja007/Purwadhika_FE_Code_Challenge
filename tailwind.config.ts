@@ -18,7 +18,8 @@ const config: Config = {
         'courtney-soft-grey': '#F9F9F9',
         'courtney-normal-grey': '#E1E1E1',
         'courtney-dark-grey': '#9F9F9F',
-        'courtney-white': '#FFFFFF'
+        'courtney-white': '#FFFFFF',
+        'courtney-soft-blue': '#C5E0FF'
       },
     },
   },

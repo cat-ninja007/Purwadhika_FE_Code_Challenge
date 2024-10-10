@@ -7,6 +7,7 @@ import Expertise from "@/components/Expertise";
 import SpecializedStaff from "@/components/SpecializedStaff";
 import Technologies from "@/components/Technologies";
 import ClientSlider from "@/components/ClientSlider";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Home: FC = () => {
@@ -20,6 +21,7 @@ const Home: FC = () => {
       <SpecializedStaff />
       <Technologies />
       <ClientSlider />
+      <Contact />
       <Footer />
     </>
   )

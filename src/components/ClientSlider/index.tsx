@@ -8,7 +8,7 @@ import ReactLogo from '../../public/images/react-logo.png'
 const ClientSlider:FC = () => {
   return (
     <>
-      <div className="client-container py-[90px] border border-2 border-red-500">
+      <div className="client-container py-[90px]">
         <div className="client-name flex justify-center">
           <h4 className="pb-4">Clients</h4>
         </div>

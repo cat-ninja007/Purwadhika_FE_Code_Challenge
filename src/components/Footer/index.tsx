@@ -13,7 +13,7 @@ import YoutubeIcon from '../../public/images/youtube-icon.png'
 const Footer:FC = ()=> {
   return (
     <>
-      <div className="footer-container pt-[100px] px-[18px] pb-14 ">
+      <div className="footer-container pt-[100px] px-[18px] pb-14 relative z-10">
         <div className="footer-logo-container pb-[30px]">
           <Image src={FooterLogo} alt="footer-logo"/>
         </div>
