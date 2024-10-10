@@ -38,7 +38,7 @@ const Solutions: FC = () => {
           </div>
         </div>
 
-        <div className="solutions-slider flex gap-[17px] justify-center">
+        <div className="solutions-slider flex gap-[17px] justify-center pb-[52px]">
           <div className="slider-one w-12 h-[7px] bg-courtney-dark-grey"></div>
           <div className="slider-two w-12 h-[7px] bg-courtney-normal-grey"></div>
           <div className="slider-three w-12 h-[7px] bg-courtney-normal-grey"></div>

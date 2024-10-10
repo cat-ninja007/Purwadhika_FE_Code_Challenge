@@ -2,6 +2,7 @@ import { FC } from "react";
 import Header from "@/components/Header";
 import Jumbotron from "@/components/Jumbotron";
 import Solutions from "@/components/Solutions";
+import Process from "@/components/Process";
 
 const Home: FC = () => {
   return (
@@ -9,6 +10,7 @@ const Home: FC = () => {
       <Header />
       <Jumbotron />
       <Solutions />
+      <Process />
       <h1 className="text-red-600">Hi This is Archie!</h1>
     </>
   )
