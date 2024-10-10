@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Jumbotron from "@/components/Jumbotron";
 import Solutions from "@/components/Solutions";
 import Process from "@/components/Process";
+import Expertise from "@/components/Expertise";
 
 const Home: FC = () => {
   return (
@@ -11,6 +12,7 @@ const Home: FC = () => {
       <Jumbotron />
       <Solutions />
       <Process />
+      <Expertise />
       <h1 className="text-red-600">Hi This is Archie!</h1>
     </>
   )
