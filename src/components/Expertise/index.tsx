@@ -21,7 +21,7 @@ const Expertise: FC = () => {
         </div>
         <div className="solutions-card">
           <div className="solutions-image-container flex justify-center mb-[38px]">
-            <div className="solutions-cube-image bg-courtney-bright-yellow w-[124px] rounded-xl flex item-center justify-center">
+            <div className="solutions-cube-image bg-courtney-bright-yellow w-[122px] p-2 rounded-xl flex item-center justify-center">
               <Image src={TeamImage} alt="cube-image" className="block" />
             </div>
           </div>

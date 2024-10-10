@@ -4,6 +4,9 @@ import Jumbotron from "@/components/Jumbotron";
 import Solutions from "@/components/Solutions";
 import Process from "@/components/Process";
 import Expertise from "@/components/Expertise";
+import SpecializedStaff from "@/components/SpecializedStaff";
+import Technologies from "@/components/Technologies";
+import ClientSlider from "@/components/ClientSlider";
 
 const Home: FC = () => {
   return (
@@ -13,6 +16,9 @@ const Home: FC = () => {
       <Solutions />
       <Process />
       <Expertise />
+      <SpecializedStaff />
+      <Technologies />
+      <ClientSlider />
       <h1 className="text-red-600">Hi This is Archie!</h1>
     </>
   )
