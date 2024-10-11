@@ -1,11 +1,10 @@
 import { FC } from "react";
 import Image from "next/image";
-import ChevronLeft from '../../public/images/chevron-left.png'
-import ChevronRight from '../../public/images/chevron-right.png'
-import ReactLogo from '../../public/images/react-logo.png'
+import ChevronLeft from "../../public/images/chevron-left.png";
+import ChevronRight from "../../public/images/chevron-right.png";
+import ReactLogo from "../../public/images/react-logo.png";
 
-
-const ClientSlider:FC = () => {
+const ClientSlider: FC = () => {
   return (
     <>
       <div className="client-container py-[90px]">
@@ -30,7 +29,7 @@ const ClientSlider:FC = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ClientSlider
+export default ClientSlider;

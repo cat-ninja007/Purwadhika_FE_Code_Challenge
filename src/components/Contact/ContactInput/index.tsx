@@ -33,15 +33,19 @@ export const ContactInputArea: FC = () => {
   return (
     <>
       <div className="contact-label-area pb-2">
-        <label className="font-bold text-courtney-dark-blue" htmlFor="project-detail">Project Detail</label>
+        <label
+          className="font-bold text-courtney-dark-blue"
+          htmlFor="project-detail"
+        >
+          Project Detail
+        </label>
       </div>
       <div className="contact-input-area">
         <textarea
           className="border border-courtney-soft-blue pl-2 py-2 w-full rounded-lg h-24 text-courtney-dark-blue"
           placeholder="Your Project Detail"
-        >
-        </textarea>
+        ></textarea>
       </div>
     </>
-  )
-}
+  );
+};

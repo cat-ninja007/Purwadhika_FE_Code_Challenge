@@ -16,7 +16,8 @@ const Expertise: FC = () => {
         </div>
         <div className="expertise-description">
           <p className="text-xl mb-16">
-            From full-time remote engineering teams to hourly contractors, work with remote devs as needed
+            From full-time remote engineering teams to hourly contractors, work
+            with remote devs as needed
           </p>
         </div>
         <div className="solutions-card">
@@ -29,9 +30,7 @@ const Expertise: FC = () => {
             <h3 className="text-[28px]">Dedicated Teams</h3>
           </div>
           <div className="solutions-card-description mb-[52px] flex justify-center">
-            <p className="text-base pb-14">
-              Find your next team member
-            </p>
+            <p className="text-base pb-14">Find your next team member</p>
           </div>
         </div>
 

@@ -1,21 +1,21 @@
 import { FC } from "react";
 import Image from "next/image";
-import FooterLogo from '../../public/images/footer-logo.png'
-import PhoneIcon from '../../public/images/phone-icon.png'
-import EmailIcon from '../../public/images/email-icon.png'
-import LocationIcon from '../../public/images/location-icon.png'
-import LinkedinIcon from '../../public/images/linkedin-icon.png'
-import FacebookIcon from '../../public/images/facebook-icon.png'
-import InstagramIcon from '../../public/images/instagram-icon.png'
-import TwitterIcon from '../../public/images/twitter-icon.png'
-import YoutubeIcon from '../../public/images/youtube-icon.png'
+import FooterLogo from "../../public/images/footer-logo.png";
+import PhoneIcon from "../../public/images/phone-icon.png";
+import EmailIcon from "../../public/images/email-icon.png";
+import LocationIcon from "../../public/images/location-icon.png";
+import LinkedinIcon from "../../public/images/linkedin-icon.png";
+import FacebookIcon from "../../public/images/facebook-icon.png";
+import InstagramIcon from "../../public/images/instagram-icon.png";
+import TwitterIcon from "../../public/images/twitter-icon.png";
+import YoutubeIcon from "../../public/images/youtube-icon.png";
 
-const Footer:FC = ()=> {
+const Footer: FC = () => {
   return (
     <>
       <div className="footer-container pt-[100px] px-[18px] pb-14 relative z-10">
         <div className="footer-logo-container pb-[30px]">
-          <Image src={FooterLogo} alt="footer-logo"/>
+          <Image src={FooterLogo} alt="footer-logo" />
         </div>
 
         <div className="footer-subtitle-container pb-8">
@@ -97,19 +97,19 @@ const Footer:FC = ()=> {
           </div>
           <div className="social-media-icon-container flex gap-[37px] justify-center pb-6">
             <div className="social-media-icon">
-              <Image src={LinkedinIcon} alt="linkedin-icon"/>
+              <Image src={LinkedinIcon} alt="linkedin-icon" />
             </div>
             <div className="social-media-icon">
-              <Image src={FacebookIcon} alt="facebook-icon"/>
+              <Image src={FacebookIcon} alt="facebook-icon" />
             </div>
             <div className="social-media-icon">
-              <Image src={InstagramIcon} alt="instagram-icon"/>
+              <Image src={InstagramIcon} alt="instagram-icon" />
             </div>
             <div className="social-media-icon">
-              <Image src={TwitterIcon} alt="twitter-icon"/>
+              <Image src={TwitterIcon} alt="twitter-icon" />
             </div>
             <div className="social-media-icon">
-              <Image src={YoutubeIcon} alt="youtube-icon"/>
+              <Image src={YoutubeIcon} alt="youtube-icon" />
             </div>
           </div>
         </div>
@@ -117,9 +117,8 @@ const Footer:FC = ()=> {
         <div className="footer-copyright-container py-6">
           <p>&copy; 2022 courtney</p>
         </div>
-
       </div>
     </>
-  )
-}
+  );
+};
 export default Footer;

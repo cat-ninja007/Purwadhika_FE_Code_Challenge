@@ -55,7 +55,7 @@ const Contact: FC = () => {
           </div>
         </div>
       </div>
-      <hr className="border-1 border-[#C4C4C4] mx-[18px]"/>
+      <hr className="border-1 border-[#C4C4C4] mx-[18px]" />
     </>
   );
 };
